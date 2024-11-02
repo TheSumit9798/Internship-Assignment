@@ -30,7 +30,8 @@ The project is structured as follows:
 ### JavaScript Interactivity
 
 - `script.js` includes functions to populate data dynamically from JSON and manage sidebar toggling.
-
+### To preview this Project:
+https://html-preview.github.io/?url=https://github.com/TheSumit9798/Internship-Assignment/blob/master/index.html
 ---
 
 
