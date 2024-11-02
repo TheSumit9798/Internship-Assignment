@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Project Management</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header and Navigation -->
+    <nav>
+        <header class="header">
+            <div class="logo">
+                <span>
+                    <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="logo" height="39px">
+                </span>
+            </div>
+            <div class="header-buttons">
+                <span class="material-symbols-outlined">home</span>
+                <span class="material-symbols-outlined">construction</span>
+                <span class="material-symbols-outlined">notifications_unread</span>
+                <span class="material-symbols-outlined">account_circle</span>
+                <span class="material-symbols-outlined">more_vert</span>
+            </div>
+        </header>
+    </nav>
+
+    <div class="container">
+        <!-- Sidebar for Navigation -->
+        <aside id="sidebar" class="sidebar">
+            <div class="arrow">
+                <input type="checkbox" id="check" />
+                <label for="check" style="color: white">
+                    <span id="arrow" class="material-symbols-outlined">arrow_forward</span>
+                </label>
+            </div>
+            <div class="sidebar-icon">1</div>
+        </aside>
+
+        <!-- Expanded Sidebar for Detailed Navigation -->
+        <aside id="side" class="sidebar-click">
+            <div class="arrow">
+                <span class="jr">journey-board</span>
+                <span id="arrowback" class="material-symbols-outlined">arrow_back</span>
+            </div>
+            <div class="sidebar-content">
+                <ul>
+                    <li><strong>Explore the world of management</strong></li>
+                    <br><br>
+                    <li>Technical Project Management</li>
+                    <li>Threadbuild</li>
+                    <li>Structure your pointers</li>
+                    <li>4SA Method</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Title Section -->
+            <section class="title-section">
+                <div class="intro">
+                    <h1>Technical Project Management</h1>
+                    <button class="submit-task">Submit task</button>
+                </div>
+                <div class="intro2">
+                    <p>Explore the world of management</p>
+                    <p class="subtitle">Uncover the skills to manage technical projects effectively</p>
+                </div>
+            </section>
+
+            <!-- Content Area -->
+            <div class="content">
+                <!-- Project Management Section -->
+                <div class="content-box project-management">
+                    <h2>Technical Project Management</h2>
+                    <p><strong>Description:</strong> Storyss of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+                    <div class="video-placeholder">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/igiTFm_rP4E?si=aZHZB16xqoOX3V8G"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Threadbuild Section -->
+                <div class="content-box threadbuild">
+                    <h2>Threadbuild</h2>
+                    <p><strong>Description:</strong> Watch the video and threadbuild, and jot out key threads while watching the video</p>
+                    <hr>
+                    <div class="thread">
+                        <h3><span id="up" class="material-symbols-outlined">stat_1</span> Thread A</h3>
+                        <input type="text" placeholder="Sub thread 1" class="thread-input">
+                        <input type="text" placeholder="Sub Interpretation 1" class="thread-input">
+                        <div class="dropdowns">
+                            <select class="dropdown">
+                                <option>Select Category</option>
+                            </select>
+                            <select class="dropdown">
+                                <option>Select Process</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Structure Your Pointers Section -->
+                <div class="card">
+                    <div class="card-header">Structure your Pointers</div>
+                    <div class="description">
+                        <strong>Description:</strong> Write a 300 - 400 word article from your thread. Publish your understanding and showcase your understanding to the entire world.
+                    </div>
+                    <div class="input-area">
+                        <input type="text" placeholder="Title">
+                        <textarea rows="6" placeholder="Content"></textarea>
+                    </div>
+                </div>
+
+                <!-- 4SA Method Section -->
+                <div class="card">
+                    <div class="card-header">4SA Method</div>
+                    <div class="description">
+                        <strong>Description:</strong> To explore more read more
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-header">Introduction</div>
+                        <div class="accordion-content">The 4SA Method, How to bring an idea into progress?</div>
+
+                        <div class="accordion-header">Thread A</div>
+                        <div class="accordion-content">How are you going to develop your strategy? Which method are you going to use to develop a strategy? What if the project is lengthy?</div>
+
+                        <div class="example">Example 1: You have a concept, How will you put it into progress?</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Notice Board Section -->
+        <aside class="notice-board">
+            <p>X Notice Board</p>
+        </aside>
+
+        <!-- Sidebar Icons at the Bottom -->
+        <div class="sidebar1">
+            <div class="sidebar-icon"><span class="material-symbols-outlined">question_mark</span></div>
+            <div class="sidebar-icon"><span class="material-symbols-outlined">diversity_3</span></div>
+            <div class="sidebar-icon"><span class="material-symbols-outlined">calendar_clock</span></div>
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="index.js"></script>
+</body>
+
+</html>
